@@ -5,9 +5,9 @@
 }
 
 :root {
-    --primary-color: #2563eb;
-    --secondary-color: #1e40af;
-    --accent-color: #f59e0b;
+    --primary-color: #a4d687;
+    --secondary-color: #a4d687;
+    --accent-color: #e29ebe;
     --text-color: #1f2937;
     --light-bg: #f3f4f6;
     --border-color: #e5e7eb;
@@ -103,7 +103,7 @@ body {
 .search-btn {
     padding: 10px 20px;
     background-color: var(--accent-color);
-    color: white;
+    color: rgb(220, 243, 194);
     border: none;
     border-radius: 4px;
     cursor: pointer;
@@ -112,7 +112,7 @@ body {
 }
 
 .search-btn:hover {
-    background-color: #d97706;
+    background-color: #e99bde;
 }
 
 /* Hero Section */
@@ -472,7 +472,7 @@ body {
 }
 
 .remove-btn:hover {
-    background-color: #dc2626;
+    background-color: #da3e58;
 }
 
 .cart-summary {
