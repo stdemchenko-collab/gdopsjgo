@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Store - Интернет магазин</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <h1 class="logo"><a href="index.html">🛍️ Online Store</a></h1>
+                <nav class="nav">
+                    <a href="index.html" class="nav-link active">Главная</a>
+                    <a href="#products" class="nav-link">Товары</a>
+                    <a href="cart.html" class="nav-link cart-link">
+                        🛒 Корзина <span class="cart-count">0</span>
+                    </a>
+                </nav>
+            </div>
+            <div class="search-container">
+                <input type="text" id="searchInput" class="search-input" placeholder="Поиск товаров...">
+                <button id="searchBtn" class="search-btn">Поиск</button>
+            </div>
+        </div>
+    </header>
+
+    <main class="main">
+        <div class="container">
+            <section class="hero">
+                <h2>Добро пожаловать в наш магазин!</h2>
+                <p>Лучшие товары по доступным ценам</p>
+            </section>
+
+            <section id="products" class="products-section">
+                <h3>Каталог товаров</h3>
+                <div class="filter-buttons">
+                    <button class="filter-btn active" data-filter="all">Все</button>
+                    <button class="filter-btn" data-filter="electronics">Электроника</button>
+                    <button class="filter-btn" data-filter="books">Книги</button>
+                    <button class="filter-btn" data-filter="clothes">Одежда</button>
+                </div>
+                <div id="productsList" class="products-grid">
+                    <!-- Товары будут загружены здесь -->
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Online Store. Все права защищены.</p>
+            <p>Контакты: info@store.com | +7 (999) 123-45-67</p>
+        </div>
+    </footer>
+
+    <script src="data.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

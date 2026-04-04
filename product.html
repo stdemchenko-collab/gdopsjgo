@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Детали товара - Online Store</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <h1 class="logo"><a href="index.html">🛍️ Online Store</a></h1>
+                <nav class="nav">
+                    <a href="index.html" class="nav-link">Главная</a>
+                    <a href="index.html#products" class="nav-link">Товары</a>
+                    <a href="cart.html" class="nav-link cart-link">
+                        🛒 Корзина <span class="cart-count">0</span>
+                    </a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main class="main">
+        <div class="container">
+            <div class="breadcrumb">
+                <a href="index.html">Главная</a> / <span id="productName">Товар</span>
+            </div>
+
+            <div id="productDetail" class="product-detail">
+                <!-- Детали товара будут загружены здесь -->
+            </div>
+
+            <section class="related-products">
+                <h3>Похожие товары</h3>
+                <div id="relatedList" class="products-grid">
+                    <!-- Похожие товары будут загружены здесь -->
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Online Store. Все права защищены.</p>
+            <p>Контакты: info@store.com | +7 (999) 123-45-67</p>
+        </div>
+    </footer>
+
+    <script src="data.js"></script>
+    <script src="product.js"></script>
+</body>
+</html>
