@@ -5,19 +5,14 @@
 }
 
 :root {
-    --primary-color: #9dbd8a;
-    --secondary-color: #a0dd7d;
-    --accent-color: #dfa9c2;
-    --text-color: #303d4f;
-    --light-bg: #8dbaba;
-    --border-color: #515c71;
-    --success-color: #8dc2b0;
-    --danger-color: #a2699a;
-}
-
-.dark-theme {
-    --primary-color: #53753c;
-    --text-color: #f3f4f6;
+    --primary-color: #a4d687;
+    --secondary-color: #a4d687;
+    --accent-color: #e29ebe;
+    --text-color: #1f2937;
+    --light-bg: #f3f4f6;
+    --border-color: #e5e7eb;
+    --success-color: #10b981;
+    --danger-color: #ef4444;
 }
 
 body {
