@@ -65,7 +65,7 @@ function createProductCard(product) {
     
     card.innerHTML = `
         <a href="product.html?id=${product.id}" class="product-image">
-            ${product.image}
+            <img src="${product.image}" alt="${product.name}">
         </a>
         <div class="product-info">
             <div class="product-category">${product.category}</div>

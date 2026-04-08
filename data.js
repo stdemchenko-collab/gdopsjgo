@@ -5,7 +5,7 @@ const products = [
         name: "Ноутбук Dell XPS 13",
         category: "electronics",
         price: 89999,
-        image: "💻",
+        image: "image/Ноутбук Dell XPS 13.jpg",
         rating: 4.8,
         description: "Мощный ноутбук с процессором Intel Core i7 и SSD 512GB",
         details: "Процессор: Intel Core i7\nОЗУ: 16GB\nЖесткий диск: 512GB SSD\nДиагональ: 13.3 дюйма\nВес: 1.2 кг"
@@ -15,7 +15,7 @@ const products = [
         name: "iPhone 15 Pro",
         category: "electronics",
         price: 119999,
-        image: "📱",
+        image: "image/iPhone 15 Pro.png",
         rating: 4.9,
         description: "Флагманский смартфон Apple с A17 Pro",
         details: "Процессор: A17 Pro\nПамять: 256GB\nДисплей: 6.1\" OLED\nКамера: 48MP\nАккумулятор: 3400 мАч"
@@ -25,7 +25,7 @@ const products = [
         name: "Наушники Sony WH-1000XM5",
         category: "electronics",
         price: 34999,
-        image: "🎧",
+        image: "image/Наушники Sony WH-1000XM5.png",
         rating: 4.7,
         description: "Беспроводные наушники с активным шумоподавлением",
         details: "Тип: Over-ear\nБатарея: 30 часов\nБлютуз: 5.3\nЧастотный диапазон: 4Hz-40kHz\nВес: 250g"
@@ -35,7 +35,7 @@ const products = [
         name: "HTML и CSS для начинающих",
         category: "books",
         price: 1299,
-        image: "📚",
+        image: "image/HTML и CSS для начинающих.jpg",
         rating: 4.6,
         description: "Полное руководство по веб-разработке",
         details: "Автор: Иван Петров\nСтраниц: 450\nИздание: 3-е переработанное\nГод: 2023"
@@ -45,7 +45,7 @@ const products = [
         name: "JavaScript: Полный справочник",
         category: "books",
         price: 2499,
-        image: "📖",
+        image: "image/JavaScript Полный справочник.jpg",
         rating: 4.8,
         description: "Компактный справочник по современному JavaScript",
         details: "Автор: Дэвид Флэнаган\nСтраниц: 650\nИздание: 2024\nПримеры кода включены"
@@ -55,7 +55,7 @@ const products = [
         name: "Python для аналитики данных",
         category: "books",
         price: 1899,
-        image: "📕",
+        image: "image/Python для аналитики данных.jpg",
         rating: 4.7,
         description: "Практическое руководство по анализу данных на Python",
         details: "Автор: Уэс Макинни\nСтраниц: 580\nУровень: средний\nПримеры: Pandas, NumPy"
@@ -65,7 +65,7 @@ const products = [
         name: "Футболка Adidas Classic",
         category: "clothes",
         price: 1299,
-        image: "👕",
+        image: "image/Футболка Adidas Classic.jpg",
         rating: 4.5,
         description: "Классическая спортивная футболка из хлопка",
         details: "Материал: 100% хлопок\nОсобенности: Дышащая ткань\nВеса: XS-3XL\nЦвет: черный, серый, синий"
@@ -75,7 +75,7 @@ const products = [
         name: "Кроссовки Nike Air Max",
         category: "clothes",
         price: 8999,
-        image: "👟",
+        image: "image/Кроссовки Nike Air Max.jpg",
         rating: 4.6,
         description: "Комфортные кроссовки для повседневной носки",
         details: "Бренд: Nike\nЦвет: черный/белый\nРазмеры: 35-47\nМатериал: синтетика + текстиль"
@@ -85,7 +85,7 @@ const products = [
         name: "Джинсы Levi's 501",
         category: "clothes",
         price: 5999,
-        image: "👖",
+        image: "image/Джинсы Levi's 501.jpg",
         rating: 4.7,
         description: "Классические синие джинсы конического кроя",
         details: "Бренд: Levi's\nМатериал: 100% хлопок деним\nФасон: прямой\nСтиль: классический"
@@ -95,7 +95,7 @@ const products = [
         name: "Куртка The North Face",
         category: "clothes",
         price: 12999,
-        image: "🧥",
+        image: "image/Куртка The North Face.jpg",
         rating: 4.8,
         description: "Водонепроницаемая горная куртка",
         details: "Материал: Gore-Tex\nТемпература: до -20°C\nЦвет: черный, синий\nУтепление: синтепон"
@@ -105,7 +105,7 @@ const products = [
         name: "Монитор LG UltraWide",
         category: "electronics",
         price: 24999,
-        image: "🖥️",
+        image: "image/Монитор LG UltraWide.jpg",
         rating: 4.9,
         description: "Ультраширокий монитор 34 дюйма для продуктивности",
         details: "Разрешение: 3440x1440\nЧастота: 165Hz\nПанель: IPS\nВремя отклика: 1ms"
@@ -115,7 +115,7 @@ const products = [
         name: "Клавиатура Mechanical RGB",
         category: "electronics",
         price: 5999,
-        image: "⌨️",
+        image: "image/Клавиатура Mechanical RGB.jpg",
         rating: 4.7,
         description: "Механическая клавиатура с RGB подсветкой",
         details: "Переключатели: Cherry MX\nРазвёртка: 104 клавиши\nПодсветка: RGB\nСвязь: USB + Bluetooth"

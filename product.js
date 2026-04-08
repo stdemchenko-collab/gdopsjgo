@@ -34,7 +34,7 @@ function displayProductDetail(product) {
     
     productDetail.innerHTML = `
         <div class="product-detail-image">
-            ${product.image}
+            <img src="${product.image}" alt="${product.name}">
         </div>
         <div class="product-detail-info">
             <div class="product-detail-category">${product.category}</div>
@@ -88,7 +88,7 @@ function createRelatedProductCard(product) {
     
     card.innerHTML = `
         <a href="product.html?id=${product.id}" class="product-image">
-            ${product.image}
+            <img src="${product.image}" alt="${product.name}">
         </a>
         <div class="product-info">
             <div class="product-category">${product.category}</div>
